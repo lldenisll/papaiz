@@ -8,40 +8,35 @@
                         <i class="la la-cog"></i>
                     </div>
                 </div>
-                <h6>Configuration</h6>
+                <h6>Informações</h6>
             </header>
             <div class="widget-body mt-3">
                 <div class="mt-4">
-                    <a href="https://flatlogic.com/templates/light-blue-vue/"
+                    <a href="https://machiron.com.br"
                     target="_blank"
                     role="button"
                     class="btn btn-warning btn-rounded-f btn-block fs-mini text-white">
-                        Purchase
+                        Machiron
                     </a>
-                    <a href="https://demo.flatlogic.com/light-blue-vue/"
+                    <a href="#"
                        target="_blank"
                        role="button"
                        class="btn btn-danger btn-rounded-f btn-block fs-mini text-white">
-                        Go FULL Version
+                        Whatsapp
                     </a>
-                    <a href="https://demo.flatlogic.com/light-blue/documentation/"
-                    target="_blank"
-                    role="button"
-                    class="btn btn-inverse btn-rounded-f btn-block fs-mini">
-                        Documentation
-                    </a>
+
                 </div>
                 <div class="d-flex justify-content-between mt-lg">
                     <a role="button"
                     target="_blank"
-                    href="https://flatlogic.com/contact"
+                    href="#"
                     class="btn btn-outline-default btn-rounded-f fs-mini text-muted d-flex align-items-center">
                         <i class="glyphicon glyphicon-headphones mr-xs mt-n-sm"></i>
-                        Support
+                        Suporte
                     </a>
                     <a role="button"
                     target="_blank"
-                    href="https://github.com/flatlogic/light-blue-vue"
+                    href="#"
                     class="btn btn-outline-default btn-rounded-f fs-mini text-muted d-flex align-items-center">
                         <i class="fa fa-github mr-xs"></i>
                         Github
@@ -49,14 +44,14 @@
                 </div>
                 <div class="mt-lg d-flex flex-column align-items-center theme-sharing">
                     <span class="fs-sm">
-                        Thank you for sharing!
+                        Nas redes!
                     </span>
                     <div class="d-flexjustify-content-center text-light mt-2 h2 mb-0">
                         <a target="_blank"
-                        href="https://twitter.com/intent/tweet?text=Amazing%20admin%20dashboard%20template%20built%20with%20%23VueJS%20and%20%23Bootstrap%204!&url=https://flatlogic.com/templates/light-blue-vue-lite/demo&via=flatlogic">
-                            <i class="fa fa-twitter mx-3"></i>
+                        href="#">
+                            <i class="fa fa-linkedin mx-3"></i>
                         </a>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://flatlogic.com/templates/light-blue-vue-lite/demo"
+                        <a href="#"
                         target="_blank">
                             <i class="fa fa-facebook mx-3"></i>
                         </a>

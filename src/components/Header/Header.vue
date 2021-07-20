@@ -3,7 +3,7 @@
     <b-navbar-nav class="navbar-nav-mobile ml-auto">
         <b-nav-text class="mr-3">
           <b-alert class="header-alert animate__animated animate__bounceIn animate__delay-2s" dismissible v-model="showNavbarAlert">
-            <i class="fa fa-info-circle mr-1"></i> Check out Light Blue Settings on the right!
+            <i class="fa fa-info-circle mr-1"></i> Projeto em andamento, não publicado
           </b-alert>
         </b-nav-text>
         <b-nav-form class="d-sm-down-none mr-3">
@@ -17,7 +17,7 @@
             <span class="avatar rounded-circle thumb-sm-1 float-left mr-2">
               <img class="rounded-circle" src="../../assets/people/a7.png" alt="..." />
             </span>
-            <span class="text-white">Philip Smith</span>
+            <span class="text-white">Thiago Pinheiro</span>
             <span class="mx-2 circle bg-danger text-dark fs-sm fw-bold">9</span>
             <i class="fi flaticon-arrow-down" />
           </template>

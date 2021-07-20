@@ -6,14 +6,14 @@
     </ol>
     <h1 class="page-title">
       Resultados -
-      <span class="fw-semi-bold">Fase 01</span>
-      <h5> Laudos processados e validados <span class='fw-semi-bold'>(sample: 128 mil exames)</span></h5>
+      <span class="fw-semi-bold">Fase 02</span>
+      <h5> Laudos com panorâmicas validados e processados <span class='fw-semi-bold'>(sample: 4.964 exames)</span></h5>
     </h1>
     <div>
       <b-row>
         <b-col xs="12" lg="12">
           <Widget
-              title="<h5>Principais alterações <span class='fw-semi-bold'>(sample: 128 mil exames)</span></h5>"
+              title="<h5>Principais alterações <span class='fw-semi-bold'>(sample:  4.964 exames)</span></h5>"
               close collapse customHeader
           >
             <apexchart type="bar" height="350" :series="cd.apex.columns.series" :options="cd.apex.columns.options"/>
@@ -29,7 +29,7 @@
                   title="<h5>Tipos <span class='fw-bold'>de dentição</span></h5>"
                   close collapse customHeader
               >
-                <apexchart type="pie" height="200" :series="cd.apex.pie.series" :options="cd.apex.pie.options"/>
+                <apexchart type="pie" height="200" :series="cd.apex.piemodel.series" :options="cd.apex.pie.options"/>
               </Widget>
             </b-col>
             <b-col xs="12" lg="6">
@@ -37,7 +37,7 @@
                   title="<h5>Distribuição <span class='fw-semi-bold'>entre sexos</span></h5>"
                   close collapse customHeader
               >
-                <echart :options="cd.echarts.donut" :init-options="initEchartsOptions" style="height: 175px"></echart>
+                <echart :options="cd.echarts.donutmodel" :init-options="initEchartsOptions" style="height: 175px"></echart>
               </Widget>
             </b-col>
             
@@ -78,7 +78,7 @@ import { Chart } from 'highcharts-vue';
 import Sparklines from '../../components/Sparklines/Sparklines'
 
 export default {
-  name: "Charts",
+  name: "ChartsModel",
   components: { Widget, echart: ECharts, highcharts: Chart, Sparklines },
   data() {
     return {
