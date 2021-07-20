@@ -4,7 +4,7 @@
 
 1. Clone repository
 ```shell
-git clone https://github.com/flatlogic/light-blue-vue-admin.git
+git clone https://github.com/lldenisll/papaiz
 ```
 2. Get in the project folder
 ```shell
