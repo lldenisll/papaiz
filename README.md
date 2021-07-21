@@ -8,7 +8,7 @@ git clone https://github.com/lldenisll/papaiz
 ```
 2. Get in the project folder
 ```shell
-cd light-blue-vue-admin
+cd papaiz
 ```
 3. Install dependencies via yarn
 ```shell
